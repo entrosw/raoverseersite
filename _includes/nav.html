@@ -1,0 +1,18 @@
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="{{ '/' | relative_url }}" class="nav__logo">
+      <img src="{{ '/assets/images/ra_logo.png' | relative_url }}" alt="Overseer RA" class="nav__logo-img">
+      <span class="nav__logo-text">Overseer RA</span>
+    </a>
+    <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav__links" id="nav-links">
+      <a href="{{ '/' | relative_url }}#features">Features</a>
+      <a href="{{ '/' | relative_url }}#how-it-works">How It Works</a>
+      <a href="{{ '/' | relative_url }}#demo">Demo</a>
+      <a href="{{ '/' | relative_url }}#compliance">Compliance</a>
+      <a href="{{ '/contact' | relative_url }}" class="nav__cta">Get Started</a>
+    </div>
+  </div>
+</nav>
